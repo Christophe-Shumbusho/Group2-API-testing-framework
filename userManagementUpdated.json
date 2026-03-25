@@ -530,12 +530,13 @@
               }
             },
             "url": {
-              "raw": "{{baseUrl}}/users",
+              "raw": "{{baseUrl}}/users/3",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
-                "users"
+                "users",
+                "3"
               ]
             }
           },
