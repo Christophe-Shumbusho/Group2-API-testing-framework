@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/your-username/postman-newman-ci.git'
+        git 'https://github.com/Christophe-Shumbusho/Group2-API-testing-framework'
       }
     }
 
@@ -16,7 +16,7 @@ pipeline {
 
     stage('Run Tests') {
       steps {
-        bat 'newman run userManagement_API.json -e Staging.env.postman_environment.json -r htmlextra --reporter-htmlextra-export newman-report.html'
+        bat 'newman run userManagementUpdated.json -e Staging.env.postman_environment.json -d loginCredentialJenkins.csv -r htmlextra --reporter-htmlextra-export newman-report.html'
       }
     }
 
