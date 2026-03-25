@@ -522,7 +522,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"id\": \"3\",\r\n    \"firstName\": \"Soniaaa\"\r\n\r\n}",
+              "raw": "{\r\n    \"firstName\": \"Soniaaa\"\r\n\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
