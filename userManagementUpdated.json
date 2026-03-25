@@ -508,7 +508,7 @@
                   "});\r",
                   "\r",
                   "pm.test(\"User updated\", () => \r",
-                  "pm.response.json().firstName === \"Sonia\"\r",
+                  "pm.response.json().firstName === \"Soniaaa\"\r",
                   ");"
                 ],
                 "type": "text/javascript",
