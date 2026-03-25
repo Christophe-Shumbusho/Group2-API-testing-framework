@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/Christophe-Shumbusho/Group2-API-testing-framework'
+        git branch: 'main', url: 'https://github.com/Christophe-Shumbusho/Group2-API-testing-framework.git'
       }
     }
 
